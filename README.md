@@ -2,7 +2,8 @@
 
 This repository contains all your certificates and provisioning profiles needed to build and sign your applications. They are encrypted using OpenSSL via a passphrase.
 
-**Important:** Make sure this repository is set to private and only your team members have access to this repo.
+This repository is public even though the recommendation is to keep it private. The certificates and profiles are encrypted
+so in theory it should be okay. This was necessary so that the repository could be access from a public build on travis CI.
 
 Do not modify this file, as it gets overwritten every time you run `match`.
 
